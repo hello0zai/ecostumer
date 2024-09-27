@@ -1,0 +1,25 @@
+{
+  "name": "@saas/dayjs",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": { 
+    "dayjs": "^1.11.10" 
+  },
+  "devDependencies": {
+    "@saas/tsconfig": "workspace:*",
+    "@saas/prettier": "workspace:*",
+    "@saas/eslint-config": "workspace:*"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@saas/eslint-config/lib"
+    ]
+  },
+  "prettier": "@saas/prettier"
+}
